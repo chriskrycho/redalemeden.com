@@ -1,6 +1,7 @@
 .home-page {
   & .main-container {
-    @extend %gradient-background;
+    @extend %sheet;
+    overflow: hidden;
   }
 
   & .button {
@@ -10,14 +11,27 @@
   & a {
     color: var(--secondary-color);
   }
-}
 
-%highlight-p {
-  font-size: 1.15rem;
-  font-weight: 400;
-  letter-spacing: 0.08em;
-  line-height: 1.8;
-  opacity: 0.8;
+  & h3,
+  & h4,
+  & h5 {
+    @extend %highlight-p;
+    font-weight: 500;
+  }
+
+  & h3 {
+    @extend %heading;
+  }
+
+  & h4 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+  }
+
+  & h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
 }
 
 .intro-content {
@@ -62,12 +76,6 @@
 
 .highlight-section {
   @extend %highlight-p;
-
-  & .section-heading {
-    font-weight: 500;
-    font-size: 1.3rem;
-    letter-spacing: 0.08em;
-  }
 
   & .section-subheading {
     font-size: 1rem;

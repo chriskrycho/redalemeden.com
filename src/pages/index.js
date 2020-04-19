@@ -20,6 +20,10 @@ const IndexPage = ({ data }) => (
       </div>
     </section>
 
+    <h3>This is level 3</h3>
+    <h4>This is level 4</h4>
+    <h5>This is level 5</h5>
+
     <section className="highlight-section">
       <h4 className="section-heading">I Write Code</h4>
       <p>
