@@ -5,7 +5,7 @@
     "email": "hello@redalemeden.com",
     "phone": "+46736455922",
     "website": "https://redalemeden.com",
-    "summary": "I am software developer, designer, and product manager (MIM) based in Stockholm, Sweden. Throughout the past decade, I worked with Web and native Apple technologies in different full-time positions around the US and Europe. I have a knack for writing, education, open-source, and community involvment. I lead by example and enjoy going the extra mile to deliver delightful products.",
+    "summary": "I am software developer, designer, and product manager (MIM) based in Stockholm, Sweden. Over the past decade, I worked with various Web and native Apple technologies in different full-time positions around the US and Europe. I am passionate about writing, education, open-source, and community involvement. I lead by example and enjoy going the extra mile to deliver delightful products.",
     "location": {
       "address": "Råcksta Gådsväg 28",
       "postalCode": "16273",
@@ -36,7 +36,7 @@
       "position": "Founder",
       "website": "https://4rays.studio",
       "startDate": "2019-05-01",
-      "summary": "Conceive, author, and publish educational and commercial products as an independent software shop.",
+      "summary": "Author and publish educational and commercial products as an independent software shop.",
       "location": {
         "city": "Stockholm",
         "countryCode": "SE"
@@ -118,7 +118,7 @@
     },
     {
       "company": "thoughtbot, Inc",
-      "position": "Designer",
+      "position": "Front-end Product Designer",
       "website": "http://thoughtbot.com",
       "startDate": "2012-01-09",
       "endDate": "2013-04-21",
@@ -171,22 +171,10 @@
         "city": "Paris",
         "countryCode": "FR"
       },
-      "summary": "Assisted the product manager with planning, design, and development.",
+      "summary": "Assisted the product manager with various planning, design, and development tasks.",
       "highlights": [
-        "Desiged and launched the beta of a multi-platform social network where users can share short audio clips."
+        "Desinged the user interface of a multi-platform social network where users can share short audio clips."
       ]
-    },
-    {
-      "company": "Biltmore Domicile",
-      "position": "Furniture Design Summer Intern",
-      "website": "https://biltmorefurniture.com/en/",
-      "startDate": "2006-07-01",
-      "endDate": "2006-07-31",
-      "location": {
-        "city": "Montréal",
-        "countryCode": "CA"
-      },
-      "summary": "Designed custom sofas and wrote technical specifications."
     }
   ],
   "education": [
@@ -228,7 +216,7 @@
     },
     {
       "institution": "ISCAE Business School",
-      "area": "Language Studies",
+      "area": "Marketing & Communication",
       "studyType": "Bachelor",
       "startDate": "2003-09-21",
       "endDate": "2007-06-20",
@@ -236,7 +224,7 @@
         "city": "Casablanca",
         "countryCode": "MA"
       },
-      "courses": ["Bachelor Degree in Marketing & Communication"]
+      "courses": ["Bachelor's Degree in Marketing & Communication"]
     }
   ],
   "awards": [
