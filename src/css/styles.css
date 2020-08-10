@@ -65,17 +65,27 @@ p {
   overflow: hidden;
 
   & .author-avatar {
-    width: 5rem;
     border-radius: 2.5rem;
+    transform: translate(-2.5rem);
+    width: 5rem;
+  }
+
+  & .avatar-placeholder {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 2.5rem;
+    display: inline-block;
+    height: 5rem;
+    transform: translate(2.5rem);
+    width: 5rem;
   }
 
   & .header-link {
-    border-radius: 1.6rem;
-    display: block;
-    margin: 0 auto;
-    max-width: 80%;
-    padding: 2rem;
     transition: all 0.3s;
+    padding: 2rem;
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 1.6rem;
 
     &:hover {
       background-color: rgba(255, 255, 255, 0.05);
@@ -134,7 +144,8 @@ p {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding: 2rem 1rem 1rem;
+      padding: 1rem;
+      margin: 0 auto;
     }
 
     & .link {
