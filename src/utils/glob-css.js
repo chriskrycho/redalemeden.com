@@ -17,7 +17,7 @@ module.exports = {
 		'--main-container-padding': '6rem',
 		'--sheet-margin-top': 'var(--main-container-padding)',
 		'--font-fira': '\'Fira Mono\'',
-		'--font-rubik': '\'Rubik\'',
+		'--font-rubik': '\'Inter\'',
 		'--header-title-size': '1.1rem',
 		'--blog-body-size': '1.125rem',
 		'--text-font': 'var(--font-rubik), system-ui',
