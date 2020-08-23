@@ -11,7 +11,6 @@ import { ReactComponent as Pattern } from '../../images/pattern.svg';
 import '../../css/normalize.css';
 import '../../css/styles.css';
 
-import 'typeface-rubik';
 import 'typeface-inter';
 
 class DefaultLayout extends React.Component {
