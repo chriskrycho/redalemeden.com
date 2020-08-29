@@ -48,13 +48,22 @@ a {
 .main-container {
   @extend %sheet;
   overflow: hidden;
-
   padding-left: calc(var(--main-container-padding) / 2);
   padding-right: calc(var(--main-container-padding) / 2);
 
   @media (--full-grid-container) {
     padding-left: var(--main-container-padding);
     padding-right: var(--main-container-padding);
+    margin-top: -0.5rem;
+  }
+
+  @media (--narrow-grid-container) {
+    padding-top: 2rem;
+  }
+
+  & .divider {
+    @extend %divider;
+    margin: 2rem 0;
   }
 }
 

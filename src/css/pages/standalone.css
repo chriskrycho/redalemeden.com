@@ -128,3 +128,13 @@
     }
   }
 }
+
+.longform-container {
+  @extend .main-container;
+  max-width: var(--grid-container-full-width);
+  margin: 1rem auto;
+}
+
+.longform-content {
+  @extend .full-post-content;
+}

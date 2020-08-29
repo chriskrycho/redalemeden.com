@@ -4,7 +4,7 @@
   --header-top-spacing: 4rem;
   --image-vertical-spacing: 2rem;
   --main-content-max-width: 40rem;
-  --sidebar-max-width: 22.5rem;
+  --sidebar-max-width: 20rem;
   --spacing-default: 1rem;
 
   --main-container-padding: 6rem;
@@ -23,50 +23,24 @@
     padding-top: 10.2rem;
   }
 
-  @media (--narrow-grid-container) {
-    background-color: var(--theme-background-color);
-  }
-
   &::before {
-    background-color: var(--theme-background-color);
+    --offset: 28vw;
+    background-image: var(--background-data-uri);
+    background-position-x: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
     content: '';
     display: block;
-
-    @media (--full-grid-container) {
-      height: 150vh;
-      margin-left: -14rem;
-      margin-top: -16rem;
-      position: fixed;
-      transform: rotate(14deg);
-      width: 100vw;
-      z-index: -1;
-    }
+    height: 100vh;
+    margin-left: calc(var(--offset) * -1);
+    position: fixed;
+    top: 0;
+    width: calc(100vw + var(--offset));
+    z-index: -1;
 
     @media (--narrow-grid-container) {
-      height: 5rem;
-      left: 0;
-      margin-left: -1rem;
-      margin-top: -2.5rem;
-      position: absolute;
-      transform: rotate(-5deg);
-      width: 105%;
-      z-index: -1;
-    }
-  }
-
-  &::after {
-    @media (--narrow-grid-container) {
-      background-color: var(--theme-background-color);
-      content: '';
-      display: block;
-      height: 5rem;
-      left: 0;
-      margin-left: -1rem;
-      margin-top: -2.5rem;
-      position: absolute;
-      transform: rotate(-5deg);
-      width: 105%;
-      z-index: -1;
+      margin-left: -30vw;
+      width: 130vw;
     }
   }
 }
