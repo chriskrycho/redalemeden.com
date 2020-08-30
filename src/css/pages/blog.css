@@ -112,7 +112,7 @@
 }
 
 .footnotes {
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin-top: 2rem;
 
   & p {
@@ -120,9 +120,7 @@
   }
 
   & hr {
-    background: rgba(0 0 0 / 10%);
-    border: 0;
-    height: 1px;
+    @extend %divider;
   }
 }
 

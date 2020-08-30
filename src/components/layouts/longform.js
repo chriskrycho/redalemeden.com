@@ -9,9 +9,12 @@ export default ({ children }) => (
   <React.Fragment>
     <main class="longform-container">
       <header>
-        <a className="back-to-home" href="/">
+        <a className="back-link" href="/">
           <img className="author-avatar" src="/author-photo.jpg" alt="Reda Lemeden" />
-          <h1 className="author-name">Reda Lemeden</h1>
+          <div className="details">
+            <h1 className="author-name">Reda Lemeden</h1>
+            <p className="site-description">Back to Home</p>
+          </div>
         </a>
       </header>
       <article class="longform-content">{children}</article>
