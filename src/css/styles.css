@@ -78,12 +78,12 @@ a {
   }
 
   & .header-link {
-    transition: all 0.3s;
-    padding: 2rem;
-    max-width: 18rem;
-    margin: 0 auto;
-    display: block;
     border-radius: 1.6rem;
+    display: block;
+    margin: 0 auto;
+    max-width: 18rem;
+    padding: 2rem;
+    transition: all 0.3s;
 
     &:hover {
       background-color: var(--theme-navigation-hover-link-bg-color);

@@ -1,10 +1,36 @@
+---
+date: '2019-02-27T01:40+01:00'
+audience: "This post was written for people interested in the open Web as a platform."
+---
+
 import PageLayout from '../../../components/layouts/longform.js';
+import Helmet from 'react-helmet';
+import moment from 'moment';
 
 export default PageLayout
 
-<Seo title="Reda Lemeden" />
+<Seo 
+  title="We Need Chrome No More" 
+  keywords="Web, Google, Browsers, Opinion" 
+  description={props.pageContext.frontmatter.audience}
+  image="social-cards/chrome-no-more.jpg"
+  largeImage={true}
+/>
+
+<Helmet bodyAttributes={{ class: 'chrome-no-more' }} />
+
+<div className="post-metadata">
+  <time date={props.pageContext.frontmatter.date}>{moment(props.pageContext.frontmatter.date).fromNow()}</time>
+</div>
 
 # We Need Chrome No More
+
+---
+
+<small>
+<span>{props.pageContext.frontmatter.audience}</span>{' '}
+  <a href="/microblog/post-1570576215962">What's this?</a>
+</small>
 
 Ten years ago, we needed Google Chrome to break the Web free from corporate hegemony, 
 and we managed to do so for a brief period. Today, its dominance is stifling the very
